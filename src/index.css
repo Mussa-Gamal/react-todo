@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'), url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNow-Regular';
+  src: local('HelveticaNowText-Regular'),
+    url('./assets/fonts/helvetica-now/HelveticaNowText-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNow-Medium';
+  src: local('HelveticaNowText-Medium'),
+    url('./assets/fonts/helvetica-now/HelveticaNowText-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNow-Bold';
+  src: local('HelveticaNowText-Bold'),
+    url('./assets/fonts/helvetica-now/HelveticaNowText-Bold.ttf');
+}
+
+:root {
+  font-family: HelveticaNow-Regular, Poppins-Regular, Inter, system-ui, Avenir,
+    Helvetica, Arial, sans-serif;
+  letter-spacing: -0.03rem;
+  background: #f3f4f6;
+}
+
+.helveticanow-regular {
+  font-family: HelveticaNow-Regular;
+}
+
+.helveticanow-medium {
+  font-family: HelveticaNow-Medium;
+}
+
+.helveticanow-bold {
+  font-family: HelveticaNow-Bold;
+}
