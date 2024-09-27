@@ -32,8 +32,8 @@ const App = () => {
       <TodoItems onTaskCountChange={handleTaskCountChange} />
       <p className='mt-10 text-gray-400 sm:text-base text-sm'>
         This to-do application was developed by{' '}
-        <a href='https://www.linkedin.com/in/mussa-gamal/' className='underline text-blue-500 hover:no-underline'>Mussa Gamal</a> utilizing Vite +
-        React and Tailwind CSS.
+        <a href='https://www.linkedin.com/in/mussa-gamal/' className='underline text-blue-500 hover:no-underline'>Mussa Gamal</a> utilizing React +
+        Vite and Tailwind CSS.
       </p>
     </div>
   )
